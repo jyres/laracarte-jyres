@@ -6,7 +6,7 @@
        </button>
        <div class="collapse navbar-collapse" id="navbarCollapse">
          <ul class="navbar-nav mr-auto">
-           <li class="nav-item active">
+           <li class="li active">
              <a class="nav-link" href="{{ route('root_path') }}">Home</a>
            </li>
            <li class="nav-item active">
@@ -27,7 +27,7 @@
              </div>
            </li>
            <li class="nav-item active">
-             <a class="nav-link" href="#">Contact</a>
+             <a class="nav-link" href="{{ route('contact_path') }}">Contact</a>
            </li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
